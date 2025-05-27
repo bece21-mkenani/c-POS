@@ -1,0 +1,8 @@
+1.   ./pos_system.exe
+2.   ping google.com
+3.   (txd/rxd test) Test-NetConnection 44.205.141.40 -Port 80
+4.   (check fire) netsh advfirewall firewall show rule name=all
+5. g++ -o pos_system.exe main.cpp db_interface.cpp auth.cpp sales.cpp menu.cpp utils.cpp -lcurl -lws2_32 -IC:/curl/include -LC:/curl/lib (compile)
+6. ls (listing)
+
+
